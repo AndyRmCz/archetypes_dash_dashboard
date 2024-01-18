@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    box-sizing: margin-box;
+    font-family: "montserrat";
+    color: whitesmoke;
+    background: linear-gradient(0.25turn, #0E2B63, #11347B);
+    padding: 5px;
+    display: flex;
+}
+
+div {
+    font-size: 1.5vw;
+}
+
+.div-centered {
+    text-align: center;
+    white-space: nowrap;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: whitesmoke;
+    margin: 0;
+    display: inline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+header{
+    margin-left:20px;
+    width: 100%;
+    /* text-align: center; */
+    border-bottom: solid whitesmoke 1px;
+}
+
+header h1{
+    margin: 7px 0px;
+}
+
+/* .content {
+    width: 3000px;
+} */
+
+.page-content{
+    margin: 20px auto 5px auto;
+    padding: 5px 2px;
+    width: 100%;
+    /* max-width: 1850px; */
+    border: solid #5A6DC5 2px;
+    border-radius: 5px;
+    display: flex;
+    /* border-left: 1px dotted  whitesmoke; */
+}
+
+.page-card{
+    font-size: min(22px, 1.3vw);
+    font-weight: bold;
+    margin: 0px auto;
+    padding-bottom: 5px;
+    width: 20%;
+    border: solid #5A6DC5 2px;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.summary-header {
+    display: flex;
+    background: linear-gradient(0.25turn, #0E2B63, #61B0FF99);
+}
+
+.card-header{
+    margin: 10px auto 10px 10px;
+}
+
+.card-title {
+    font-size: min(22px, 1.3vw);
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    /* height: 15%; */
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+    color:white
+    /* padding: 1px; */
+}
+
+.inline-container {
+    display: flex;
+}
+
+.inline-child {
+    display: inline;
+}
+
+.archetype-title {
+    font-size: min(22px, 1.3vw);
+    text-align: center;
+    /* vertical-align: middle; */
+    width: 100%;
+    height: 15%;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    color:white
+    /* padding: 1px; */
+}
+
+.archetype-title:hover {
+    font-size: min(22px, 1.3vw);
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    height: 15%;
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    color: #FFC000; /*Confirm right color*/
+    /* padding: 1px; */
+}
+
+.archetype-container{
+    margin: 0px auto 20px;
+    padding-bottom: 5px;
+    /* height: 450px; */
+    width: 12.15%;
+    /* height: 80%; */
+    opacity: 0.85;
+    display: inline-block;
+}
+
+.one {
+    /* background-color: #00B1EB; */
+    background: linear-gradient(#96CAFFAA, #0E2B6322); 
+}
+
+.two {
+    /* background-color: #EF7D00; */
+    background: linear-gradient(#0068F4DD, #0E2B6322);
+}
+
+.three {
+    /* background-color: #FBBA00;  */
+    background: linear-gradient(#00B050DD, #0E2B6322);
+}
+
+.four {
+    /* background-color: #AFCA0B; */
+    background: linear-gradient(#AFCA0BDD, #0E2B6322);
+}
+
+.five {
+    /* background-color: #E72482; */
+    background: linear-gradient(#A6A6A6DD, #0E2B6322);
+}
+
+.six {
+    /* background-color: #004F9F; */
+    background: linear-gradient(#000000DD, #0E2B6322);
+}
+
+.seven {
+    /* background-color: #7030A0; */
+    background: linear-gradient(#FFC000DD, #0E2B6322);
+}
+
+.eight {
+    /* background-color: #FF0000; */
+    background: linear-gradient(#CA3399DD, #0E2B6322);
+}
+
+#metric-dropdown {
+    display: flex;
+}
+
+#metric-dropdown label:hover{
+    color: darkgrey;
+}
+
+input {
+    appearance: none;
+    visibility: hidden;
+  }
